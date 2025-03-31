@@ -1,0 +1,123 @@
+   <style>
+        body {
+            background-color: #FFFFFF;
+            color: #666666;
+        }
+        header {
+            background-color: #00B386;
+            color: #FFFFFF;}
+        nav {
+            background-color: #70DBDB;}
+        h2 {
+            color: #00664D;}
+        dt {
+            color: #00664D;}
+        .barn {
+            color: #70DBDB;}
+			#homeImage { background-image: url(Assets/sunsetHorse.png);
+    		   height: 300px;
+		   background-repeat: no-repeat;
+		   background-size: 100% 100%;
+ }
+
+* {
+    box-sizing: border-box;
+}
+
+
+#wrapper {
+    background-color: #0C5442;
+    background: linear-gradient(to bottom, #FFFFFF, #0C5442); /* Gradient from white to dark green */
+    border: 1.5pt solid #003300; /* Dark green border */
+}
+
+
+body {
+    background-color: #FFFFFF; /* White background */
+    background-image: none;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Add a default font family */
+}
+
+header {
+    height: 175px;
+    padding-top: 30px;
+    padding-left: 3em;
+}
+
+
+h1 {
+    margin-top: 0;
+    font-size: 3em;
+    letter-spacing: 0.25em;
+}
+
+nav {
+    padding: 1.5em;
+    font-size: 120%; /* 120% font size for navigation */
+    float: left;
+    width: 160px;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #00664D; /* Default unvisited link color (Dark Green) */
+}
+
+nav a:visited {
+    color: #7A7A52; /* Visited link color (Greenish Brown) */
+}
+
+nav a:hover {
+    color: #FFFFFF; /* Interactive link color (White) */
+}
+
+
+main {
+    background-color: #FFFFFF;
+    margin-left: 190px;
+    padding-left: 30px;
+}
+
+
+main ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+footer {
+    margin-left: 190px;
+    background-color: #FFFFFF;
+}
+
+#homeImage, #boardImage, #trainingImage {
+    margin-left: 190px;
+}
+
+.profile img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+
+#homeImage {
+    background-image: url('sunsetHorse.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+    </style>
